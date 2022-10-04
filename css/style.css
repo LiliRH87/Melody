@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;  /*позволяет считать правильную высоту и ширину*/
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;   /*сделали блок гибким*/
+    justify-content: space-between;   /*расставили элементы по краям*/
+    align-items: center;
+}
+
+.navbar-menu {
+    margin: 0px;  /*отключаем внешние отступы*/
+    padding: 0px;  /*отключаем внутренние отступы*/
+    list-style: none; /*отключаем точки в списке*/
+    display: flex;   /*выровняли элементы списка в строку*/
+    text-align: center;   /*выровняли текст элементов по центру*/
+}
+
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-text {
+    display: block;   /*бдочный элемент, занимающий всю строчку*/
+    color: #fff;   /*цвет текста белый*/
+    margin-bottom: 4px; /*вниз отталкивает телефон, нижний отступ после фразы "Заказать звонок"*/
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navbar-contacts {
+    text-align: right;  /*выравнивание текста по правому краю*/
+}
+
+.navbar-phone {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;   /*цвет текста белый*/
+}
